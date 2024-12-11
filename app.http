@@ -1,0 +1,34 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "email":"joebiden@gmail.com",
+  "password":"biden@123"
+}
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "email":"joebiden@gmail.com",
+  "password":"biden@123"
+}
+
+###
+
+GET http://localhost:3000/featured-technicians/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvZWJpZGVuQGdtYWlsLmNvbSIsImlhdCI6MTczMzgyMzIwNH0.DrkWnRFESpYRKE7JeT58kqVtMQkrgf-WEviOjk80DoY
+
+###
+GET http://localhost:3000/users/
+
+
+###
+GET http://localhost:3000/appliances/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvZWJpZGVuQGdtYWlsLmNvbSIsImlhdCI6MTczMzgyMzIwNH0.DrkWnRFESpYRKE7JeT58kqVtMQkrgf-WEviOjk80DoY
+
+
+###
+GET http://localhost:3000/locations/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvZWJpZGVuQGdtYWlsLmNvbSIsImlhdCI6MTczMzgyMzIwNH0.DrkWnRFESpYRKE7JeT58kqVtMQkrgf-WEviOjk80DoY
